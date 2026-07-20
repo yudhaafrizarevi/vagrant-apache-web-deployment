@@ -1,21 +1,17 @@
 # Vagrant Apache Web Deployment
 
-## 📌 Overview
-
-This project demonstrates the implementation of Infrastructure as Code (IaC) using Vagrant to automatically provision a CentOS Stream 9 virtual machine. During provisioning, Apache HTTP Server (httpd) is installed, configured, and used to deploy a responsive website template automatically.
-
-The project aims to simplify web server deployment by automating the entire setup process with a single command.
+This project demonstrates the implementation of **Infrastructure as Code (IaC)** using **Vagrant** to automatically provision a **CentOS Stream 9** virtual machine. During provisioning, **Apache HTTP Server (httpd)** is installed, configured, and used to deploy a responsive website automatically.
 
 ---
 
 ## 🚀 Features
 
 - Automated virtual machine provisioning using Vagrant
-- Apache HTTP Server (httpd) installation and configuration
+- Automatic Apache HTTP Server (httpd) installation
 - Automated website deployment
 - Private network configuration
-- Shell script provisioning
-- One-command deployment (`vagrant up`)
+- Shell-based provisioning
+- One-command deployment with `vagrant up`
 
 ---
 
@@ -31,12 +27,12 @@ The project aims to simplify web server deployment by automating the entire setu
 
 ## 📂 Project Structure
 
-```
-.
+```text
+vagrant-apache-web-deployment/
 ├── Vagrantfile
 ├── README.md
 ├── LICENSE
-└── screenshots
+└── screenshots/
     ├── website.png
     ├── apache-status.png
     └── vagrant-up.png
@@ -47,6 +43,8 @@ The project aims to simplify web server deployment by automating the entire setu
 ## ▶️ Getting Started
 
 ### Prerequisites
+
+Before running this project, make sure you have installed:
 
 - Vagrant
 - VirtualBox
@@ -88,8 +86,8 @@ http://192.168.56.23
 
 ![Vagrant Provisioning](screenshots/vagrant-up.png)
 
-
 ---
+
 
 ## 📄 License
 
