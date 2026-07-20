@@ -88,15 +88,6 @@ http://192.168.56.23
 
 ![Vagrant Provisioning](screenshots/vagrant-up.png)
 
----
-
-## 🔮 Future Improvements
-
-- Replace Shell Provisioner with Ansible
-- Deploy applications directly from Git repositories
-- Add Docker support
-- Configure Nginx as a reverse proxy
-- Implement HTTPS using SSL certificates
 
 ---
 
