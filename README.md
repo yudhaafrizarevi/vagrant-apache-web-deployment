@@ -1,2 +1,30 @@
-# vagrant-apache-web-deployment
-Infrastructure as Code (IaC) project using Vagrant to provision a CentOS Stream 9 VM and automatically deploy Apache HTTP Server.
+# Vagrant Apache Web Deployment
+
+## 📌 Overview
+
+This project demonstrates Infrastructure as Code (IaC) using Vagrant to automatically provision a CentOS Stream 9 virtual machine, install Apache HTTP Server, and deploy a responsive website.
+
+## 🚀 Features
+
+- Automated VM provisioning
+- Apache HTTP Server installation
+- Website deployment
+- Private network configuration
+- Automated provisioning using Shell Script
+
+## 🛠 Technologies
+
+- Vagrant
+- VirtualBox
+- CentOS Stream 9
+- Apache HTTP Server (httpd)
+- Bash
+
+## 📂 Project Structure
+
+...
+
+## ▶️ How to Run
+
+```bash
+vagrant up
