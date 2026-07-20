@@ -81,7 +81,6 @@ vagrant-apache-web-deployment/
 ├── Vagrantfile
 ├── README.md
 ├── LICENSE
-├── .gitignore
 │
 └── screenshots/
     ├── website.png
