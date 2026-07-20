@@ -218,17 +218,6 @@ Using Vagrant provisioning provides several benefits:
 
 ---
 
-# 💡 Future Improvements
-
-- Replace Shell Provisioning with Ansible
-- Add Nginx Reverse Proxy
-- Deploy using Docker
-- Configure HTTPS with Let's Encrypt
-- Add GitHub Actions for CI
-- Deploy on AWS EC2 using Terraform
-
----
-
 # 👨‍💻 Author
 
 **Yudha Afriza Revi**
